@@ -26,126 +26,270 @@ namespace Frågesport
             if (Answer == Correct)
             {
                 Points++;
+            }
+            else
+            {
+                System.Console.WriteLine("gay");
+            }
+            Answer = "ph";
+            Correct = "a";
+            System.Console.WriteLine("2) What is the first letter in the Alphabet? a) a b) ö c) oe");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+            }
+            else
+            {
+                System.Console.WriteLine("Blev du tappad på huvudet som ung?");
+            }
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+            }
+            else
+            {
+                System.Console.WriteLine("Är du från USA eller?");
+            }
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+            }
+            else
+            {
+                System.Console.WriteLine("Du kan inte ens läsa...");
+            }
+            Answer = "ph";
+            Correct = "Placeholder";
+            System.Console.WriteLine("congratz you got " + Points + " points");
+            /*
+            else
+            {
                 Answer = "ph";
-                Correct = "a";
-                System.Console.WriteLine("2) What is the first letter in the Alphabet? a) a b) ö c) oe");
+                Correct = "Placeholder";
+                System.Console.WriteLine("congratz you got " + Points + "points");
+            }
+        }
+        else
+        {
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "c";
+                System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
                 Answer = Console.ReadLine();
                 if (Answer == Correct)
                 {
                     Points++;
                     Answer = "ph";
-                    Correct = "c";
-                    System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
-                    Answer = Console.ReadLine();
-                    if (Answer == Correct)
-                    {
-                        Points++;
-                        Answer = "ph";
-                        Correct = "c";
-                        System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
-                        Answer = Console.ReadLine();
-                        if (Answer == Correct)
-                        {
-                            Points++;
-                            Answer = "ph";
-                            Correct = "Placeholder";
-                            System.Console.WriteLine("congratz you got " + Points + "points");
-                        }
-                        else
-                        {
-                            Answer = "ph";
-                            Correct = "Placeholder";
-                            System.Console.WriteLine("congratz you got " + Points + "points");
-                        }
-                    }
-                    else
-                    {
-                        Answer = "ph";
-                        Correct = "c";
-                        System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
-                        Answer = Console.ReadLine();
-                        if (Answer == Correct)
-                        {
-                            Points++;
-                            Answer = "ph";
-                            Correct = "c";
-                            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
-                            Answer = Console.ReadLine();
-                            if (Answer == Correct)
-                            {
-                                Points++;
-                                Answer = "ph";
-                                Correct = "Placeholder";
-                                System.Console.WriteLine("congratz you got " + Points + "points");
-                            }
-                            else
-                            {
-                                Answer = "ph";
-                                Correct = "Placeholder";
-                                System.Console.WriteLine("congratz you got " + Points + "points");
-                            }
-                        }
-                    }
-                    Console.ReadLine();
-
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points + "points");
                 }
                 else
                 {
                     Answer = "ph";
-                    Correct = "a";
-                    System.Console.WriteLine("2) What is the first letter in the Alphabet? a) a b) ö c) oe");
-                    Answer = Console.ReadLine();
-                    if (Answer == Correct)
-                    {
-                        Points++;
-                        Answer = "ph";
-                        Correct = "c";
-                        System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
-                        Answer = Console.ReadLine();
-                        if (Answer == Correct)
-                        {
-                            Points++;
-                            Answer = "ph";
-                            Correct = "c";
-                            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
-                            Answer = Console.ReadLine();
-                            if (Answer == Correct)
-                                Points++;
-                            Answer = "ph";
-                            Correct = "Placeholder";
-                            System.Console.WriteLine("congratz you got " + Points + "points");
-                        }
-                    }
-                    else
-                    {
-                        Answer = "ph";
-                        Correct = "c";
-                        System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
-                        Answer = Console.ReadLine();
-                        if (Answer == Correct)
-                        {
-                            Points++;
-                            Answer = "ph";
-                            Correct = "c";
-                            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
-                            Answer = Console.ReadLine();
-                            if (Answer == Correct)
-                            {
-                                Points++;
-                                Answer = "ph";
-                                Correct = "Placeholder";
-                                System.Console.WriteLine("congratz you got " + Points);
-                            }
-                            else
-                            {
-                                Answer = "ph";
-                                Correct = "Placeholder";
-                                System.Console.WriteLine("congratz you got " + Points + "points");
-                            }
-                        }
-                    }
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points + "points");
                 }
             }
+        }
+        Console.ReadLine();
+
+    }
+    else
+    {
+        Answer = "ph";
+        Correct = "a";
+        System.Console.WriteLine("2) What is the first letter in the Alphabet? a) a b) ö c) oe");
+        Answer = Console.ReadLine();
+        if (Answer == Correct)
+        {
+            Points++;
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "c";
+                System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+                Answer = Console.ReadLine();
+                if (Answer == Correct)
+                    Points++;
+                Answer = "ph";
+                Correct = "Placeholder";
+                System.Console.WriteLine("congratz you got " + Points + "points");
+            }
+        }
+        else
+        {
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "c";
+                System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+                Answer = Console.ReadLine();
+                if (Answer == Correct)
+                {
+                    Points++;
+                    Answer = "ph";
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points);
+                }
+                else
+                {
+                    Answer = "ph";
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points + "points");
+                }
+            }
+        }
+    }
+
+}
+else
+{
+    Answer = "ph";
+    Correct = "a";
+    System.Console.WriteLine("2) What is the first letter in the Alphabet? a) a b) ö c) oe");
+    Answer = Console.ReadLine();
+    if (Answer == Correct)
+    {
+        Points++;
+        Answer = "ph";
+        Correct = "c";
+        System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
+        Answer = Console.ReadLine();
+        if (Answer == Correct)
+        {
+            Points++;
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "Placeholder";
+                System.Console.WriteLine("congratz you got " + Points + "points");
+            }
+            else
+            {
+                Answer = "ph";
+                Correct = "Placeholder";
+                System.Console.WriteLine("congratz you got " + Points + "points");
+            }
+        }
+        else
+        {
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "c";
+                System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+                Answer = Console.ReadLine();
+                if (Answer == Correct)
+                {
+                    Points++;
+                    Answer = "ph";
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points + "points");
+                }
+                else
+                {
+                    Answer = "ph";
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points + "points");
+                }
+            }
+        }
+        Console.ReadLine();
+
+    }
+    else
+    {
+        Answer = "ph";
+        Correct = "a";
+        System.Console.WriteLine("2) What is the first letter in the Alphabet? a) a b) ö c) oe");
+        Answer = Console.ReadLine();
+        if (Answer == Correct)
+        {
+            Points++;
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "c";
+                System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+                Answer = Console.ReadLine();
+                if (Answer == Correct)
+                    Points++;
+                Answer = "ph";
+                Correct = "Placeholder";
+                System.Console.WriteLine("congratz you got " + Points + "points");
+            }
+        }
+        else
+        {
+            Answer = "ph";
+            Correct = "c";
+            System.Console.WriteLine("3) What is the worlds biggest city? a) New York b) Stockholm c) Tokyo");
+            Answer = Console.ReadLine();
+            if (Answer == Correct)
+            {
+                Points++;
+                Answer = "ph";
+                Correct = "c";
+                System.Console.WriteLine("4) Who was the king of the largest kingdom called Francia, formed close to the collapse of rome? a) Hitler b) Stalin c) Charlemagne");
+                Answer = Console.ReadLine();
+                if (Answer == Correct)
+                {
+                    Points++;
+                    Answer = "ph";
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points);
+                }
+                else
+                {
+                    Answer = "ph";
+                    Correct = "Placeholder";
+                    System.Console.WriteLine("congratz you got " + Points + "points");
+                }
+            }
+        }
+    }
+*/
+            Console.ReadLine();
         }
     }
 }
